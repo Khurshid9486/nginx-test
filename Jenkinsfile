@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label "generic2"
-    } //agent
+    master
     stages {
 
            stage ("Set up") {
