@@ -1,5 +1,5 @@
 pipeline {
-    master
+    agent master
     stages {
 
            stage ("Set up") {
