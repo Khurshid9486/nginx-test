@@ -3,6 +3,5 @@
   hosts: all
   tasks:
     - name: "Include nginx-test"
-      include_role:
-        name: 
+        roles: 
           - nginx-test
